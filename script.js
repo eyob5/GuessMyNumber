@@ -7,7 +7,7 @@ document.querySelector('.check').addEventListener('click',function(){
     const guess=Number(document.querySelector('.guess').value);
 
     if(!guess){
-        document.querySelector('.message').textContent='NoNumber';
+        document.querySelector('.message').textContent='No Number';
     }
        else if(guess === number){
         document.querySelector('.number').textContent=number;
